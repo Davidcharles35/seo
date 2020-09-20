@@ -203,7 +203,20 @@ a:hover {
 .l-bloc .divider-h span {
     border-color: rgba(0, 0, 0, .1);
 }
+.col-sm-12 p{
+    font-size:18px;
+}
+.col-xs-12 p
+{
+    font-size:18px;
+}
+.col-xs-12 span{
+    font-size:14px;
+}
+.row h2 {
 
+    font-size: 18px;
+}
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
@@ -664,11 +677,6 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -679,6 +687,7 @@ p {
     font-family: "Open Sans";
 }
 
+}
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
@@ -764,7 +773,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -796,7 +805,7 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
+}   
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
