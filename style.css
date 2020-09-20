@@ -318,9 +318,10 @@ a:hover {
 }
 
 .navbar .nav {
-    padding-top: 2px;
+    
     margin-right: -16px;
-    float: right;
+    text-align: center;
+    padding-top:100px;
     z-index: 1;
 }
 
@@ -328,31 +329,26 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
-}
+    padding-bottom:45px;
+    list-style: none;
+   
 
+}
+.icon-bar{
+    color:black;
+}
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    text-decoration: none;
 }
 
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
 }
-
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-}
-
 .navbar-toggle:hover {
     background: transparent!important;
 }
-
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
-}
-
 .nav-invert .navbar .nav {
     float: left;
 }
@@ -366,7 +362,7 @@ a:hover {
 
 @media (min-width: 768px) {
     .site-navigation {
-        position: absolute;
+       
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
@@ -404,7 +400,10 @@ a:hover {
         margin: 10px auto 0;
     }
 }
-
+article 
+{
+    margin:0;
+}
 .nav > li > .dropdown a {
     background: none!important;
     display: block;
@@ -470,12 +469,7 @@ button {
     border-radius: 40px;
 }
 
-.btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
-}
+
 
 .icon-md {
     font-size: 30px!important;
@@ -608,7 +602,10 @@ a[data-lightbox]:hover img {
     opacity: 1.0;
     color: #FFF;
 }
-
+button
+{
+    display:none;
+}
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
@@ -677,16 +674,11 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-.tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
-}
 
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
 }
-
 }
 .cta-hero {
     margin-top: 22px;
@@ -924,10 +916,8 @@ h4 {
     }
     .nav > li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
         text-align: left;
-        padding-left: 15px;
+        padding-left: 22%;
         width: 100%;
     }
     .nav > li:hover {
@@ -1031,6 +1021,15 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .btn-clean {
+        border: 1px solid rgba(0, 0, 0, .08);
+        border-bottom-color: rgba(0, 0, 0, .1);
+        text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+        box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    }
+    .navbar-brand{
+        padding: 15px 47px;
     }
 }
 
