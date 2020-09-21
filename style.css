@@ -870,8 +870,6 @@ h4 {
         display: block;
         width: 100%;
     }
-  
-
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
