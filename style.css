@@ -734,7 +734,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    margin-left: 19%;
+    margin-left: 18%;
 }
 
 .portfolio-row {
@@ -846,6 +846,10 @@ h4 {
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        margin-left: 18%;
     }
 }
 
@@ -1024,6 +1028,10 @@ h4 {
     }
     .navbar-brand{
         padding: 15px 47px;
+    }
+    .portfolio-thumb {
+       
+        margin-left: 0%;
     }
 }
 
