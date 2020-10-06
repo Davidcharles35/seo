@@ -788,6 +788,10 @@ h4 {
     color: white!important;
 }
 
+.text-center hero-bloc-text tc-white text-here
+{
+    color:black;
+}
 .btn-atomic-tangerine {
     background: #E88832;
     color: black!important;
@@ -795,7 +799,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color:blac!important;
+    color:black!important;
 }
 
 .ltc-white {
@@ -1059,4 +1063,8 @@ h4 {
 h2 .title-one
 {
     font-size:40px;
+}
+.row 
+{
+    color:black;
 }
